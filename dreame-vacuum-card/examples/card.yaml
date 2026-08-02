@@ -1,0 +1,23 @@
+type: custom:dreame-vacuum-card
+name: X60 Ultra Complete
+room: Гостиная
+
+vacuum_entity: vacuum.x60_ultra_complete
+map_entity: camera.x60_ultra_complete_map
+
+# Эти сущности необязательны: карточка попробует найти их автоматически.
+# Раскомментируйте и исправьте entity_id, если автопоиск выбрал не то.
+# battery_entity: sensor.x60_ultra_complete_battery_level
+# cleaned_area_entity: sensor.x60_ultra_complete_cleaned_area
+# cleaning_time_entity: sensor.x60_ultra_complete_cleaning_time
+# cleaning_mode_entity: select.x60_ultra_complete_cleaning_mode
+# suction_entity: select.x60_ultra_complete_suction_level
+# water_volume_entity: select.x60_ultra_complete_water_volume
+# charging_status_entity: sensor.x60_ultra_complete_charging_status
+# clean_water_tank_entity: sensor.x60_ultra_complete_clean_water_tank_status
+# dirty_water_tank_entity: sensor.x60_ultra_complete_dirty_water_tank_status
+# mop_pad_entity: sensor.x60_ultra_complete_mop_pad
+
+show_map: true
+show_settings: true
+show_consumables: true
