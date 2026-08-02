@@ -1,0 +1,11 @@
+type: custom:heatstick-heater-card
+name: Обогреватель
+room: Гостиная
+status_entity: select.heatstick_839944_status
+current_temperature_entity: sensor.heatstick_839944_current_temperature
+target_temperature_entity: number.heatstick_839944_target_temperature
+mode_entity: select.heatstick_839944_mode
+power_entity: select.heatstick_839944_power
+display_entity: select.heatstick_839944_display
+led_entity: switch.heatstick_839944_led
+image: /local/heater.png
