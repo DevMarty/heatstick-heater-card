@@ -2,6 +2,13 @@
 
 Отдельная Lovelace-карточка Home Assistant для управления обогревателем Heatstick. Карточка не требует Mushroom, button-card, card-mod или layout-card.
 
+## Файлы проекта
+
+- `heatstick-heater-card.js` — компактная версия для установки в Home Assistant.
+- `src/heatstick-heater-card.js` — полный несжатый исходник с русскими комментариями и читаемым форматированием.
+- `examples/card.yaml` — пример конфигурации карточки.
+- `hacs.json` — описание репозитория для HACS.
+
 ## Установка вручную
 
 1. Скопируйте `heatstick-heater-card.js` в `/config/www/heatstick-heater-card.js`.
@@ -9,6 +16,8 @@
 3. Добавьте `/local/heatstick-heater-card.js` как **JavaScript module**.
 4. Полностью обновите страницу с очисткой кэша.
 5. Добавьте карточку из `examples/card.yaml`.
+
+Для разработки можно использовать `src/heatstick-heater-card.js` напрямую: скопируйте его в `/config/www/heatstick-heater-card.js` либо зарегистрируйте отдельным ресурсом с другим именем. Нельзя одновременно подключать компактную и исходную версии, поскольку обе регистрируют один и тот же Web Component.
 
 Изображение шапки должно находиться в `/config/www/heater.png`, тогда в YAML используется путь `/local/heater.png`.
 
